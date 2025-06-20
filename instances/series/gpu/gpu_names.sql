@@ -23,4 +23,7 @@ UPDATE instances SET acceleratorType = "NVIDIA P100"       WHERE acceleratorType
 UPDATE instances SET acceleratorType = "NVIDIA H100 80GB"      WHERE acceleratorType LIKE "nvidia-h100-80gb";
 UPDATE instances SET acceleratorType = "NVIDIA H100 80GB Mega" WHERE acceleratorType LIKE "nvidia-h100-mega-80gb";
 
+UPDATE instances SET acceleratorType = "NVIDIA H200 141GB" WHERE acceleratorType LIKE "nvidia-h200-141gb";
+UPDATE instances SET acceleratorType = "NVIDIA B200" WHERE acceleratorType LIKE "nvidia-b200";
+
 UPDATE instances SET acceleratorType = "NVIDIA K80 (EOL!)" WHERE acceleratorType LIKE "nvidia-tesla-k80";
