@@ -15,7 +15,7 @@ UPDATE instances SET bandwidth = '1000'  WHERE name LIKE 'a3-highgpu-8g';
 UPDATE instances SET bandwidth = '1800' WHERE name LIKE 'a3-megagpu-8g';
 
 UPDATE instances SET 
-  cpuPlatform = 'Emerald Rapids', 
-  bandwidth = '3600',
-  localSsd = '12000'
-  WHERE name LIKE 'a3-ultragpu-8g';
+	cpuPlatform = 'Emerald Rapids', 
+	bandwidth = '3600',
+	localSsd = '12000'
+	WHERE name LIKE 'a3-ultragpu-8g';

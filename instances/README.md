@@ -12,7 +12,7 @@ The SQL files are read during the [build](../build/) process.
 * [Series](./series/)
 	* [A2](./series/a2.sql)
 	* [A3](./series/a3.sql)
-    * [A4](./series/a4.sql)
+	* [A4](./series/a4.sql)
 	* [C2](./series/c2.sql)
 	* [C2D](./series/c2d.sql)
 	* [C3](./series/c3.sql)
